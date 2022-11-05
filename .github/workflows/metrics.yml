@@ -71,11 +71,3 @@ jobs:
           plugin_screenshot_selector: body
           plugin_screenshot_title: Webseite
           plugin_screenshot_url: ${{ secrets.WEBSITE }}
-          
-          plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
-          plugin_pagespeed_pwa: yes
-          plugin_pagespeed_screenshot: yes
-          plugin_pagespeed_url: .user.website
-          
-          plugin_support: true
