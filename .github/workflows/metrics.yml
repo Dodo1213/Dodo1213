@@ -65,16 +65,17 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_sections: time
-          
-          plugin_leetcode_limit_recent: 2
-          plugin_leetcode_limit_skills: 10
-          plugin_leetcode_sections: solved
-          plugin_leetcode_user: .user.login
 
           plugin_screenshot: yes
           plugin_screenshot_background: yes
           plugin_screenshot_selector: body
           plugin_screenshot_title: Webseite
           plugin_screenshot_url: ${{ secrets.WEBSITE }}
+          
+          plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_pwa: yes
+          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_url: .user.website
           
           plugin_support: true
