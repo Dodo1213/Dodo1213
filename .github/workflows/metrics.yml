@@ -60,8 +60,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_repositories: yes
-          #plugin_repositories_featured: Dodo1213/github-api-wrapper, Dodo1213/gradle-spigot-dependency-loader, Dodo1213/mcserv
-
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_sections: time
